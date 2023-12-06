@@ -1,0 +1,122 @@
+
+body {
+  background-color: rgb(177, 69, 85);
+}
+
+header {
+  background: linear-gradient(135deg, #f06, rgb(236, 145, 41));
+  color: white;
+  font-family: 'Arial', sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+  padding: 10px;
+  text-align: center;
+}
+
+
+/* Style the form container */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin: 0 auto;
+  max-width: 50%;
+  padding: 10rem;
+  color: white;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* Style the label and input fields */
+label {
+  display: block;
+  margin-bottom: 1rem;
+}
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  height: 4rem;
+  font-size: 1.6rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 0 1rem 2rem rgba(252, 246, 246, 0.1);
+}
+
+/* Style the radio buttons and checkboxes */
+input[type="radio"],
+input[type="checkbox"] {
+  position: relative;
+  display: inline-block;
+  margin: 0 1rem;
+  vertical-align: middle;
+}
+input[type="radio"]::before,
+input[type="checkbox"]::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+}
+input[type="radio"]::after,
+input[type="checkbox"]::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+input[type="radio"].checked::before,
+input[type="checkbox"].checked::before {
+  background-color: #333;
+  color: #fff;
+}
+input[type="radio"].checked::after,
+input[type="checkbox"].checked::after {
+  opacity: 0;
+}
+
+/* Style the submit and reset buttons */
+button[type="submit"],
+button[type="reset"] {
+  display: inline-block;
+  margin: 0 1rem;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button[type="submit"]::hover,
+button[type="reset"]::hover {
+  background-color: #444;
+}
+
+/* Style the text area */
+textarea {
+  width: 100%;
+  height: 10rem;
+  font-size: 1.6rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 0 1rem 2rem rgba(255, 252, 252, 0.1);
+}
+

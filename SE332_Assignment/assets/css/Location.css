@@ -1,0 +1,62 @@
+/*mystyle.css*/
+
+body {
+  font-family: sans-serif;
+  background-color:rgb(177, 69, 85);
+  color: purple;
+}
+header {
+  background: linear-gradient(135deg, #f06, rgb(236, 145, 41));
+  color: white;
+  font-family: 'Arial', sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+  padding: 10px;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin-right: 20px;
+  background-color: #d8da3d;
+  color: purple;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: purple;
+}
+
+a:link {
+  color:blueviolet;
+}
+
+a:visited {
+  color: white;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #343a40; /* Dark background color for the footer */
+  color: #fff; /* White text color for the footer */
+  padding: 10px 0;
+}

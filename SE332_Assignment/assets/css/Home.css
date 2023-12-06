@@ -1,0 +1,98 @@
+/* Global Styles */
+body {
+    background: linear-gradient(135deg, #f06, rgb(236, 145, 41));
+    
+}
+
+title{
+    color: white;
+  }
+
+/* Navbar Styles */
+.navbar {
+    background-color: #343a40; 
+    overflow: auto;/* Dark background color */
+}
+
+.navbar-brand img {
+    width: 70px;
+    height: 60px;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-color: #fff; /* White color for the navbar toggler icon */
+}
+
+.navbar-nav a {
+    color: #fff !important; /* White color for navbar links */
+}
+
+/* Add a background color on mouse-over */
+.navbar a:hover {
+    background-color: #ae3939;
+  }
+
+
+/* Banner Styles */
+.banner-img {
+    width: 70%;
+    height: 500px;
+    object-fit: cover;
+}
+
+/* Container Styles */
+.container {
+    margin-top: 20px;
+    color: #fff !important; 
+}
+
+/* Table Styles */
+
+.fee-table th, .fee-table td {
+    text-align: center;
+    color: white;
+    background-color: #c76a6a;
+}
+.table > thead > tr > th{
+    
+    color: black;
+    background-color: hotpink;
+    }
+/* Footer Styles */
+footer {
+    background-color: #343a40; /* Dark background color for the footer */
+    color: #fff; /* White text color for the footer */
+    padding: 10px 0;
+}
+
+/* Subscribe Form Styles */
+#subscribeForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#subscribeForm input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#subscribeForm button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue color for the subscribe button */
+    color: blue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .banner-img {
+        width: 100%;
+        height: auto;
+    }
+}
